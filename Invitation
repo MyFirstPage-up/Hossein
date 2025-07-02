@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .container{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    h1{
+        font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(95, 128, 99); 
+        font-size: 1.2em;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #base-card{
+        display: block;
+        margin-left:auto ;
+        margin-right:auto;
+        width: 50%;
+               }
+    .invation-text{
+        font-family:'Brush Script MT', cursive;
+        color:rgb(110, 157, 116); 
+        font-size: 1.25em;
+        text-align: justify;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        right: 35%;
+        }
+    .date-time-location{
+            font-weight: bold;
+        }
+        .RSVP{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(37, 53, 39); 
+        font-size: 1em;
+        position: absolute;
+        bottom: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+</style>
+</head>
+<body>
+<div class="container">
+<img id="base-card" src="https://printableshub.com/wp-content/uploads/2024/01/invitation-background-templates-3.jpg" alt="base-invation-card" width="400" height="600">
+<div><h1>Grand Opening Celebration!</h1></div>
+<div class="invation-text">
+<p>We are thrilled to invite you to the Grand Opening of New Platform! Join us on <span class="date-time-location">30th June</span> at <span class="date-time-location">13:00</span> at 1-8 Russel Square, <span class="date-time-location">Kimpton Hotel</span> as we celebrate the launch of our new location and our exciting new chapter. 
+We'll have Special food, drinks, music, special discounts, giveaways to celebrate with you.
+<br>Please fulfill the <span class="date-time-location">RSVP</span> requirement so we can get a headcount. We can't wait to see you there! </p>
+</div>
+<div class="RSVP"><a target="_blank" href="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=nO4cPfCLdUO1uVwDFdEYforVvYzfT9BAmctyEGtkSa1UMjlPN0U0M004MldVTjBCTjZQQ0VEN0xKNi4u&Token=2f3aeaae3fa74146b293d641427531fa">RSVP Form!</a></div>
+</div>
+</body>
+</html>
